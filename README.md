@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: accessing a raw pointer to vector data after the vector has been reallocated.  This leads to undefined behavior and potential crashes. The `bug.rs` file contains the erroneous code, while `bugSolution.rs` offers a safe alternative using indexing or iterators.
